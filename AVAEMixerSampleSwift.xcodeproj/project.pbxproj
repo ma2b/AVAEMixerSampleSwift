@@ -14,6 +14,15 @@
 		DCF4A1511CEAAD7600B20EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF4A14F1CEAAD7600B20EB0 /* LaunchScreen.storyboard */; };
 		DCF4A15C1CEAAD7600B20EB0 /* AVAEMixerSampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A15B1CEAAD7600B20EB0 /* AVAEMixerSampleSwiftTests.swift */; };
 		DCF4A1671CEAAD7700B20EB0 /* AVAEMixerSampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1661CEAAD7700B20EB0 /* AVAEMixerSampleSwiftUITests.swift */; };
+		DCF4A1751CEAAFC100B20EB0 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1741CEAAFC100B20EB0 /* AudioEngine.swift */; };
+		DCF4A1771CEAB02900B20EB0 /* AudioEngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1761CEAB02900B20EB0 /* AudioEngineViewController.swift */; };
+		DCF4A1791CEAB06400B20EB0 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1781CEAB06400B20EB0 /* AudioViewController.swift */; };
+		DCF4A17B1CEAB08C00B20EB0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A17A1CEAB08C00B20EB0 /* PlayerViewController.swift */; };
+		DCF4A17D1CEAB0AB00B20EB0 /* SequencerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A17C1CEAB0AB00B20EB0 /* SequencerViewController.swift */; };
+		DCF4A17F1CEAB0D200B20EB0 /* InstrumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A17E1CEAB0D200B20EB0 /* InstrumentViewController.swift */; };
+		DCF4A1811CEAB0E700B20EB0 /* ReverbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1801CEAB0E700B20EB0 /* ReverbViewController.swift */; };
+		DCF4A1831CEAB10D00B20EB0 /* DistorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1821CEAB10D00B20EB0 /* DistorViewController.swift */; };
+		DCF4A1851CEAB11F00B20EB0 /* MixerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4A1841CEAB11F00B20EB0 /* MixerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		DCF4A1621CEAAD7600B20EB0 /* AVAEMixerSampleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAEMixerSampleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF4A1661CEAAD7700B20EB0 /* AVAEMixerSampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAEMixerSampleSwiftUITests.swift; sourceTree = "<group>"; };
 		DCF4A1681CEAAD7700B20EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF4A1741CEAAFC100B20EB0 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		DCF4A1761CEAB02900B20EB0 /* AudioEngineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngineViewController.swift; sourceTree = "<group>"; };
+		DCF4A1781CEAB06400B20EB0 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioViewController.swift; path = AVAEMixerSampleSwift/ViewController/AudioViewController.swift; sourceTree = "<group>"; };
+		DCF4A17A1CEAB08C00B20EB0 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = AVAEMixerSampleSwift/PlayerViewController.swift; sourceTree = "<group>"; };
+		DCF4A17C1CEAB0AB00B20EB0 /* SequencerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SequencerViewController.swift; path = AVAEMixerSampleSwift/SequencerViewController.swift; sourceTree = "<group>"; };
+		DCF4A17E1CEAB0D200B20EB0 /* InstrumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstrumentViewController.swift; path = AVAEMixerSampleSwift/InstrumentViewController.swift; sourceTree = "<group>"; };
+		DCF4A1801CEAB0E700B20EB0 /* ReverbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverbViewController.swift; path = AVAEMixerSampleSwift/ReverbViewController.swift; sourceTree = "<group>"; };
+		DCF4A1821CEAB10D00B20EB0 /* DistorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistorViewController.swift; path = AVAEMixerSampleSwift/DistorViewController.swift; sourceTree = "<group>"; };
+		DCF4A1841CEAB11F00B20EB0 /* MixerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MixerViewController.swift; path = AVAEMixerSampleSwift/MixerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +118,12 @@
 				DCF4A1461CEAAD7600B20EB0 /* AppDelegate.swift */,
 				DCF4A1481CEAAD7600B20EB0 /* ViewController.swift */,
 				DCF4A14A1CEAAD7600B20EB0 /* Main.storyboard */,
+				DCF4A1741CEAAFC100B20EB0 /* AudioEngine.swift */,
+				DCF4A1761CEAB02900B20EB0 /* AudioEngineViewController.swift */,
 				DCF4A14D1CEAAD7600B20EB0 /* Assets.xcassets */,
 				DCF4A14F1CEAAD7600B20EB0 /* LaunchScreen.storyboard */,
 				DCF4A1521CEAAD7600B20EB0 /* Info.plist */,
+				DCF4A1861CEAB12600B20EB0 /* ViewControllers */,
 			);
 			path = AVAEMixerSampleSwift;
 			sourceTree = "<group>";
@@ -123,6 +144,21 @@
 				DCF4A1681CEAAD7700B20EB0 /* Info.plist */,
 			);
 			path = AVAEMixerSampleSwiftUITests;
+			sourceTree = "<group>";
+		};
+		DCF4A1861CEAB12600B20EB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCF4A1781CEAB06400B20EB0 /* AudioViewController.swift */,
+				DCF4A17A1CEAB08C00B20EB0 /* PlayerViewController.swift */,
+				DCF4A17C1CEAB0AB00B20EB0 /* SequencerViewController.swift */,
+				DCF4A17E1CEAB0D200B20EB0 /* InstrumentViewController.swift */,
+				DCF4A1801CEAB0E700B20EB0 /* ReverbViewController.swift */,
+				DCF4A1821CEAB10D00B20EB0 /* DistorViewController.swift */,
+				DCF4A1841CEAB11F00B20EB0 /* MixerViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF4A17D1CEAB0AB00B20EB0 /* SequencerViewController.swift in Sources */,
+				DCF4A17F1CEAB0D200B20EB0 /* InstrumentViewController.swift in Sources */,
+				DCF4A1851CEAB11F00B20EB0 /* MixerViewController.swift in Sources */,
+				DCF4A1751CEAAFC100B20EB0 /* AudioEngine.swift in Sources */,
+				DCF4A1771CEAB02900B20EB0 /* AudioEngineViewController.swift in Sources */,
 				DCF4A1491CEAAD7600B20EB0 /* ViewController.swift in Sources */,
+				DCF4A1811CEAB0E700B20EB0 /* ReverbViewController.swift in Sources */,
 				DCF4A1471CEAAD7600B20EB0 /* AppDelegate.swift in Sources */,
+				DCF4A1791CEAB06400B20EB0 /* AudioViewController.swift in Sources */,
+				DCF4A17B1CEAB08C00B20EB0 /* PlayerViewController.swift in Sources */,
+				DCF4A1831CEAB10D00B20EB0 /* DistorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -59,12 +59,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="387"/>
+            <point key="canvasLocation" x="281" y="351"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2gq-1l-WCK">
             <objects>
                 <viewController id="RV8-XV-j13" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sk2-XY-ybc"/>
+                        <viewControllerLayoutGuide type="bottom" id="jop-ou-qn9"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XLw-uI-JCm">
                         <rect key="frame" x="0.0" y="0.0" width="240" height="260"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,11 +77,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5t-Uq-eBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-217" y="229"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jkU-Ei-thy">
             <objects>
                 <viewController id="Jva-TJ-PUA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nya-C2-PaA"/>
+                        <viewControllerLayoutGuide type="bottom" id="2tS-xR-4mb"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="znp-CU-YwD">
                         <rect key="frame" x="0.0" y="0.0" width="240" height="150"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,11 +95,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWe-zE-1p5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-217" y="551"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rfm-M5-gZJ">
             <objects>
                 <viewController id="31A-uW-8BZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x4C-9l-7MK"/>
+                        <viewControllerLayoutGuide type="bottom" id="LwI-pl-c28"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2wW-Rq-LDh">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="120"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,11 +113,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IaG-Ow-Cjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="924" y="351"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DyL-lq-F6a">
             <objects>
                 <viewController id="jRn-X0-kEm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nrQ-uS-z8v"/>
+                        <viewControllerLayoutGuide type="bottom" id="mc6-OJ-7Zj"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KWK-VP-BCj">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="120"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,11 +131,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTe-lb-TDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="924" y="103"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="h9Z-AT-9r0">
             <objects>
                 <viewController id="69H-Pg-nOf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Gh-GQ-7Bc"/>
+                        <viewControllerLayoutGuide type="bottom" id="SwV-rX-oor"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NbB-Rg-42X">
                         <rect key="frame" x="0.0" y="0.0" width="187" height="150"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,11 +149,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UfX-yp-1oV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="867.5" y="576"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Ee-JS-Nuj">
             <objects>
                 <viewController id="8wS-jf-mN4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NeE-Bg-Z2g"/>
+                        <viewControllerLayoutGuide type="bottom" id="sjF-HP-3cW"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IsL-qt-eBm">
                         <rect key="frame" x="0.0" y="0.0" width="560" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,6 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ZB-fB-GUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="321" y="871"/>
         </scene>
     </scenes>
 </document>
