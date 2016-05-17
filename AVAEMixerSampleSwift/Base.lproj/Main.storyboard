@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AVAEMixerSampleSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,10 +16,127 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDs-mk-Tl0">
+                                <rect key="frame" x="20" y="28" width="240" height="260"/>
+                                <connections>
+                                    <segue destination="RV8-XV-j13" kind="embed" id="QOa-6f-dPg"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UkM-Mg-hKK">
+                                <rect key="frame" x="20" y="300" width="240" height="150"/>
+                                <connections>
+                                    <segue destination="Jva-TJ-PUA" kind="embed" id="MpJ-Uj-rfk"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hT9-jH-Js7">
+                                <rect key="frame" x="280" y="28" width="300" height="120"/>
+                                <connections>
+                                    <segue destination="31A-uW-8BZ" kind="embed" id="abs-Eh-4Br"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZLl-8u-azQ">
+                                <rect key="frame" x="280" y="168" width="300" height="120"/>
+                                <connections>
+                                    <segue destination="jRn-X0-kEm" kind="embed" id="Gqb-Ta-JSB"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDT-q8-Em2">
+                                <rect key="frame" x="393" y="300" width="187" height="150"/>
+                                <connections>
+                                    <segue destination="69H-Pg-nOf" kind="embed" id="LHP-Cw-Wtc"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ofq-pU-CVU">
+                                <rect key="frame" x="20" y="464" width="560" height="128"/>
+                                <connections>
+                                    <segue destination="8wS-jf-mN4" kind="embed" id="JiI-pF-3I0"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2gq-1l-WCK">
+            <objects>
+                <viewController id="RV8-XV-j13" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XLw-uI-JCm">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="260"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5t-Uq-eBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jkU-Ei-thy">
+            <objects>
+                <viewController id="Jva-TJ-PUA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="znp-CU-YwD">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWe-zE-1p5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rfm-M5-gZJ">
+            <objects>
+                <viewController id="31A-uW-8BZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2wW-Rq-LDh">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="120"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IaG-Ow-Cjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DyL-lq-F6a">
+            <objects>
+                <viewController id="jRn-X0-kEm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KWK-VP-BCj">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="120"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lTe-lb-TDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h9Z-AT-9r0">
+            <objects>
+                <viewController id="69H-Pg-nOf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NbB-Rg-42X">
+                        <rect key="frame" x="0.0" y="0.0" width="187" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UfX-yp-1oV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Ee-JS-Nuj">
+            <objects>
+                <viewController id="8wS-jf-mN4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IsL-qt-eBm">
+                        <rect key="frame" x="0.0" y="0.0" width="560" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZB-fB-GUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
